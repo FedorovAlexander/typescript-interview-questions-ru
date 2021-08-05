@@ -2,7 +2,13 @@
 
 ## General
 
-1.<a href="answers/general.md#main-features">Каковы основные особенности TypeScript?</a><br> 2. <a href="answers/general.md#benefits">What are the benefits of using TypeScript?</a><br> 3. <a href="answers/general.md#data-types">What are the built-in data types of TypeScript?</a><br> 4. <a href="answers/general.md#interface">What is an interface in TypeScript?</a><br> 5. <a href="answers/general.md#modules">What are modules in TypeScript?</a><br> 6. <a href="answers/general.md#for-backend">How can you use TypeScript for the backend?</a><br> 7. <a href="answers/general.md#type-assertions">What are Type assertions in TypeScript?</a>
+1. <a href="answers/general.md#main-features">Каковы основные особенности TypeScript?</a><br>
+2. <a href="answers/general.md#benefits">В чем преимущества использования TypeScript?</a><br>
+3. <a href="answers/general.md#data-types">Какие типы данных строены в TypeScript?</a><br>
+4. <a href="answers/general.md#interface">Что такое интерфейс в TypeScript?</a><br>
+5. <a href="answers/general.md#modules">Что такое модуль в TypeScript?</a><br>
+6. <a href="answers/general.md#for-backend">Как использовать TypeScript в backend?</a><br>
+7. <a href="answers/general.md#type-assertions">Что такое преобразование к типу (type assertion) в TypeScript?</a>
 
 ## TypeScript Syntax & Language Basics
 
