@@ -1,6 +1,6 @@
 # Собеседование по TypeScript. Вопросы и ответы.
 
-## General
+## Основы
 
 1. <a href="answers/general.md#main-features">Каковы основные особенности TypeScript?</a><br>
 2. <a href="answers/general.md#benefits">В чем преимущества использования TypeScript?</a><br>
