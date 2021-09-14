@@ -4,7 +4,7 @@
 
 1. <a href="answers/general.md#main-features">Каковы основные особенности TypeScript?</a><br>
 2. <a href="answers/general.md#benefits">В чем преимущества использования TypeScript?</a><br>
-3. <a href="answers/general.md#data-types">Какие типы данных строены в TypeScript?</a><br>
+3. <a href="answers/general.md#data-types">Какие типы данных встроены в TypeScript?</a><br>
 4. <a href="answers/general.md#interface">Что такое интерфейс в TypeScript?</a><br>
 5. <a href="answers/general.md#modules">Что такое модуль в TypeScript?</a><br>
 6. <a href="answers/general.md#for-backend">Как использовать TypeScript в backend?</a><br>
