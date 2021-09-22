@@ -26,3 +26,16 @@
 **Undefined**: литерал, который является отправной точкой всех переменных.
 
 **Void**: тип, присвоенный методам, не имеющим возвращаемого значения.
+
+## <a name="interface"></a>Что такое интерфейс в TypeScript?
+
+Интерфейс определяет свойства и методы, которые объект должен реализовать. Другими словами, интерфейс - это определение кастомного типа данных, но без реализации.
+
+```typescript
+interface IEmployee {
+	empCode: number;
+	empName: string;
+	getSalary: (number) => number; // arrow function
+	getManagerName(number): string;
+}
+```
