@@ -8,7 +8,7 @@
 4. <a href="answers/general.md#interface">Что такое интерфейс в TypeScript?</a><br>
 5. <a href="answers/general.md#modules">Что такое модуль в TypeScript?</a><br>
 6. <a href="answers/general.md#for-backend">Как использовать TypeScript в backend?</a><br>
-7. <a href="answers/general.md#type-assertions">Что такое преобразование к типу (type assertion) в TypeScript?</a>
+7. <a href="answers/general.md#type-assertions">Что такое утверждение типа (type assertion) в TypeScript?</a>
 
 ## TypeScript Syntax & Language Basics
 
