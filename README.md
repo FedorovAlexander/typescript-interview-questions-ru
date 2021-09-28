@@ -10,17 +10,17 @@
 6. <a href="answers/general.md#for-backend">Как использовать TypeScript в backend?</a><br>
 7. <a href="answers/general.md#type-assertions">Что такое утверждение типа (type assertion) в TypeScript?</a>
 
-## TypeScript Syntax & Language Basics
+## Синтаксис и основы языка
 
-1. How do you create a variable in TypeScript?
-2. How do you call a base class constructor from a child class in TypeScript?
-3. Explain how to use TypeScript Mixins.
-4. How do you check null and undefined in TypeScript?
-5. What are getters/setters in TypeScript? How do you use them?
-6. How do you allow classes defined in a module to be accessible outside of a module?
-7. How do we convert string to a number using Typescript?
-8. What is a '.map' file, and why/how can you use it?
-9. What are classes in TypeScript? How do you define them?
+1. <a href="answers/general.md#variable">Как объявить переменную в TypeScript?</a><br>
+2. <a href="answers/general.md#constructor">Как вызвать конструктор базового класса из дочернего класса в TypeScript?</a><br>
+3. <a href="answers/general.md#mixins">Объясните как использовать миксины в TypeScript.</a><br>
+4. <a href="answers/general.md#null-undefined">Как проверить на null или undefined?</a><br>
+5. <a href="answers/general.md#getter-setter">Что такое getters/setters? Как их использовать?</a><br>
+6. <a href="answers/general.md#accessible-outside">Как сделать так, чтобы классы, определенные в модуле, были доступны вне модуля?</a><br>
+7. <a href="answers/general.md#convert">Как преобразовать строку в число с помощью TypeScript?</a><br>
+8. <a href="answers/general.md#map">Что такое файл .map? Зачем и как его можно использовать?</a><br>
+9. <a href="answers/general.md#classes">Что такое классы в TypeScript?</a>
 
 ## TypeScript with JavaScript Questions
 
