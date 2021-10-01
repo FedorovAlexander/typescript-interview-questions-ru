@@ -15,3 +15,29 @@ let num: number = 1;
 ```typescript
 const num: number = 100;
 ```
+
+## <a name="constructor"></a>Как вызвать конструктор базового класса из дочернего класса в TypeScript?
+
+Вы можете использовать функцию `super()` для вызова конструктора базового класса.
+
+```typescript
+class Animal {
+	name: string;
+	constructor(theName: string) {
+		this.name = theName;
+	}
+	move(distanceInMeters: number = 0) {
+		console.log(`${this.name} moved ${distanceInMeters}m.`);
+	}
+}
+
+class Snake extends Animal {
+	constructor(name: string) {
+		super(name);
+	}
+	move(distanceInMeters = 5) {
+		console.log("Slithering...");
+		super.move(distanceInMeters);
+	}
+}
+```
