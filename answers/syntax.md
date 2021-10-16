@@ -108,3 +108,20 @@ if (employee.fullName) {
 	console.log(employee.fullName);
 }
 ```
+
+## <a name="accessible-outside"></a>Как сделать так, чтобы классы, определенные в модуле, были доступны вне модуля?
+
+Вы можете использовать ключевое слово `export`, чтобы классы, определенные вне модуля.
+
+```typescript
+module Admin {
+	// use the export keyword in TypeScript to access the class outside
+	export class Employee {
+		constructor(name: string, email: string) {}
+	}
+	let alex = new Employee("alex", "alex@gmail.com");
+}
+
+// The Admin variable will allow you to access the Employee class outside the module with the help of the export keyword in TypeScript
+let nick = new Admin.Employee("nick", "nick@yahoo.com");
+```
