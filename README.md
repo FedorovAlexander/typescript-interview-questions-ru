@@ -24,11 +24,10 @@
 
 ## TypeScript with JavaScript Questions
 
-1. How does TypeScript relate to JavaScript?
-2. What is JSX in TypeScript?
-3. What are the JSX modes TypeScript supports?
-4. How do you compile a TypeScript file?
-5. What scopes are available in TypeScript? How does this compare to JS?
+1. <a href="answers/ts-js.md#relate">Какое отношение TypeScript имеет к JavaScript?</a><br>
+2. <a href="answers/ts-js.md#JSX">Что такое JSX?</a><br>
+3. <a href="answers/ts-js.md#compile">Как компилировать TypeScript файл?</a><br>
+4. <a href="answers/ts-js.md#scopes">Какие области видимости доступны в TypeScript?</a>
 
 ## Advanced TypeScript Questions
 
