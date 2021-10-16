@@ -125,3 +125,7 @@ module Admin {
 // The Admin variable will allow you to access the Employee class outside the module with the help of the export keyword in TypeScript
 let nick = new Admin.Employee("nick", "nick@yahoo.com");
 ```
+
+## <a name="convert"></a>Как преобразовать строку в число с помощью TypeScript?
+
+Подобно JavaScript, вы можете использовать функции `parseInt` или `parseFloat` для преобразования строки в целое число или число с плавающей запятой соответственно. Вы также можете использовать унарный оператор `+` для преобразования строки в наиболее подходящий числовой тип, «3» становится целым числом 3, а «3.14» становится вещественным числом 3.14.
