@@ -31,14 +31,14 @@
 
 ## Advanced TypeScript Questions
 
-1. What are Arrow/lambda functions in TypeScript?
-2. Explain Rest parameters and the rules to declare Rest parameters.
-3. What are Triple-Slash Directives? What are some of the triple-slash directives?
-4. What does the Omit type do?
-5. How do you achieve function overloading in TypeScript?
-6. How do you make all properties of an interface optional?
-7. When should you use the ‘unknown’ keyword?
-8. What are decorators, and what can they be applied to?
+1. <a href="answers/advanced.md#arrow">Что такое стрелочные/лямбда функции?</a><br>
+2. <a href="answers/advanced.md#rest">Объясните Rest параметры и правила объявления таких параметров.</a><br>
+3. <a href="answers/advanced.md#triple-slash">Что такое Triple-Slash директивы?</a><br>
+4. <a href="answers/advanced.md#omit">Что делает тип Omit?</a><br>
+5. <a href="answers/advanced.md#overload">Как получить перегрузку функции?</a><br>
+6. <a href="answers/advanced.md#optional">Как сделать все свойства интерфейса необязательными?</a><br>
+7. <a href="answers/advanced.md#unknown">Когда нужно использовать ключевое слово unknown?</a><br>
+8. <a href="answers/advanced.md#decorators">Что такое декораторы и к чему их можно применить?</a>
 
 ## More TypeScript Questions to Practice
 
