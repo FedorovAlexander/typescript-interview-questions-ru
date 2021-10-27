@@ -29,7 +29,7 @@
 3. <a href="answers/ts-js.md#compile">Как компилировать TypeScript файл?</a><br>
 4. <a href="answers/ts-js.md#scopes">Какие области видимости доступны в TypeScript?</a>
 
-## Advanced TypeScript Questions
+## Продвинутое знание TypeScript
 
 1. <a href="answers/advanced.md#arrow">Что такое стрелочные/лямбда функции?</a><br>
 2. <a href="answers/advanced.md#rest">Объясните Rest параметры и правила объявления таких параметров.</a><br>
@@ -40,25 +40,25 @@
 7. <a href="answers/advanced.md#unknown">Когда нужно использовать ключевое слово unknown?</a><br>
 8. <a href="answers/advanced.md#decorators">Что такое декораторы и к чему их можно применить?</a>
 
-## More TypeScript Questions to Practice
+## Eщё вопросы по TypeScript
 
-1. What is the default access modifier for member variables and methods in TypeScript?
-2. When should you use the declare keyword?
-3. What are generics in TypeScript? When would you use them?
-4. How and when would you use the enum collection?
-5. What are namespaces and why would you use them?
-6. How would you implement optional parameters?
-7. Name 3 differences between TypeScript and JavaScript.
-8. Is TypeScript a functional programming language?
-9. What TypeScript features would be beneficial for a full-stack developer?
-10. What are the advantages of TypeScript Language Service (TSLS)?
-11. What features does TypeScript offer to help make reusable components?
-12. What is the difference between a tuple and an array in TypeScript?
-13. What is the difference between internal and external modules in TypeScript?
-14. What collections does TypeScript support?
-15. What is the Record type used for?
-16. What advantages does TypeScript bring to a tech stack?
-17. How do you generate a definition file using TypeScript?
-18. Does TypeScript support abstract classes?
-19. How can you set your TypeScript file to compile whenever there's a change?
-20. What are Ambients in TypeScript and when should you use them?
+1. <a href="answers/more.md#default-modifier">What is the default access modifier for member variables and methods in TypeScript?</a><br>
+2. <a href="answers/more.md#declare">When should you use the declare keyword?</a><br>
+3. <a href="answers/more.md#generics">What are generics in TypeScript? When would you use them?</a><br>
+4. <a href="answers/more.md#enum">How and when would you use the enum collection?</a><br>
+5. <a href="answers/more.md#namespaces">What are namespaces and why would you use them?</a><br>
+6. <a href="answers/more.md#optional">How would you implement optional parameters?</a><br>
+7. <a href="answers/more.md#differences">Name 3 differences between TypeScript and JavaScript.</a><br>
+8. <a href="answers/more.md#is-functional">Is TypeScript a functional programming language?</a><br>
+9. <a href="answers/more.md#full-stack">What TypeScript features would be beneficial for a full-stack developer?</a><br>
+10. <a href="answers/more.md#tsls">What are the advantages of TypeScript Language Service (TSLS)?</a><br>
+11. <a href="answers/more.md#reusable">What features does TypeScript offer to help make reusable components?</a><br>
+12. <a href="answers/more.md#tuple">What is the difference between a tuple and an array in TypeScript?</a><br>
+13. <a href="answers/more.md#internal">What is the difference between internal and external modules in TypeScript?</a><br>
+14. <a href="answers/more.md#collections">What collections does TypeScript support?</a><br>
+15. <a href="answers/more.md#record">What is the Record type used for?</a><br>
+16. <a href="answers/more.md#tech-stack">What advantages does TypeScript bring to a tech stack?</a><br>
+17. <a href="answers/more.md#definition">How do you generate a definition file using TypeScript?
+18. <a href="answers/more.md#abstract">Does TypeScript support abstract classes?</a><br>
+19. <a href="answers/more.md#compile">How can you set your TypeScript file to compile whenever there's a change?</a><br>
+20. <a href="answers/more.md#abmients">What are Ambients in TypeScript and when should you use them?</a>
