@@ -49,7 +49,7 @@
 5. <a href="answers/more.md#namespaces">Что такое пространство имен и как его использовать?</a><br>
 6. <a href="answers/more.md#optional">Как реализовать необязательные параметры?</a><br>
 7. <a href="answers/more.md#differences">Назовите три отличия TypeScript от JavaScript.</a><br>
-8. <a href="answers/more.md#is-functional">TypeScript фукциональный язык программирования?</a><br>
+8. <a href="answers/more.md#is-functional">TypeScript функциональный язык программирования?</a><br>
 9. <a href="answers/more.md#tsls">Назовите преимущества TypeScript Language Service (TSLS)?</a><br>
 10. <a href="answers/more.md#reusable">Как с помощью TypeScript сделать переиспользуемые компоненты?</a><br>
 11. <a href="answers/more.md#tuple">В чем разница между tuple и массивом в TypeScript?</a><br>
