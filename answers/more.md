@@ -46,15 +46,135 @@ function multiply(a: number, b?: number, c: number): number {
 
 TypeScript поддерживает некоторые методы функционального программирования - в основном потому, что он имеет те же функции высшего порядка и замыкания, что и JavaScript.
 
-## <a name="tsls"></a>Назовите преимущества TypeScript Language Service (TSLS)?
-
 ## <a name="reusable"></a>Как с помощью TypeScript сделать переиспользуемые компоненты?
+
+Generics - это инструмент, который позволяет создавать компоненты, которые можно переиспользовать. Он создает компонент, который может работать с различными типами данных. Это позволяет пользователям использовать свои собственные типы. Generics гарантируют, что программа масштабируемой в долгосрочной перспективе.
+
+```typescript
+function identity<T>(arg: T): T {
+	return arg;
+}
+let output1 = identity<string>("myString");
+let output2 = identity<number>(100);
+```
 
 ## <a name="tuple"></a>В чем разница между tuple и массивом в TypeScript?
 
+Обычно `tuple` представляет собой фиксированного размера массив, состоящий из элементов известного типа. Порядок элементов должен соблюдаться.
+
+```typescript
+const primaryColors: [string, string, string] = [
+	"#ff0000",
+	"#00ff00",
+	"#0000ff",
+];
+console.log(primaryColors);
+```
+
 ## <a name="internal"></a>В чем разница между внутренними и внешними модулями TypeScript?
 
+### Внешний модуль
+
+Например. В файле main.d.ts:
+
+```typescript
+import log = module("log");
+log.message("hello");
+```
+
+Этот ссылается на внешний модуль log, который определен в файле log.ts.
+
+```typescript
+export function message(s: string) {
+	console.log(s);
+}
+```
+
+### Внутренний модуль
+
+В этом файле есть два внутренних модуля X.Y.Z.
+
+```typescript
+module A.B.C {
+	import XYZ = X.Y.Z;
+	export function ping(x: number) {
+		if (x > 0) {
+			XYZ.pong(x – 1)
+			};
+	}
+}
+module X.Y.Z {
+	import ABC = A.B.C;
+	export function pong(x: number) {
+		if (x > 0) {
+			ABC.ping(x – 1)
+			};
+	}
+}
+```
+
 ## <a name="collections"></a>Какие коллекции поддерживает TypeScript?
+
+### Массивы
+
+```typescript
+let num: number[] = [1, 2, 3];
+const numToo: Array<number> = [1, 2, 3];
+```
+
+### Tuples
+
+```typescript
+const life: [string, number] = ["everything", 42];
+```
+
+### Объекты
+
+```typescript
+const planet: { name: string; position: number } = {
+	name: "earth",
+	position: 3,
+};
+```
+
+### Map
+
+```typescript
+const planet = new Map<string, string>();
+planet.set("name", "earth");
+planet.set("position", "1");
+
+console.log(planet);
+// Map { 'name' => 'earth', 'position' => '1' }
+```
+
+### Set
+
+Набор - это упорядоченный список значений без дубликатов.
+
+```typescript
+const planet = new Set<string>();
+planet.add("earth");
+
+console.log(planet);
+// Set { 'earth' }
+```
+
+### WeakMap и WeakSet
+
+WeakMap
+
+```typescript
+const planet = new WeakMap<{ bodyType: string }, string>();
+planet.set({ bodyType: "planet" }, "earth");
+```
+
+WeakSet
+
+```typescript
+const planet = new WeakSet<{ name: string }>();
+planet.add({ name: "earth" });
+```
 
 ## <a name="record"></a>Для чего используется тип Record?
 
