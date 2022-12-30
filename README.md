@@ -35,7 +35,7 @@
 2. <a href="answers/advanced.md#rest">Объясните Rest параметры и правила объявления таких параметров.</a><br>
 3. <a href="answers/advanced.md#triple-slash">Что такое Triple-Slash директивы?</a><br>
 4. <a href="answers/advanced.md#omit">Что делает тип Omit?</a><br>
-5. <a href="answers/advanced.md#overload">Как получить перегрузку функции?</a><br>
+5. <a href="answers/advanced.md#overload">Что такое перегрузка функции в TypeScript?</a><br>
 6. <a href="answers/advanced.md#optional">Как сделать все свойства интерфейса необязательными?</a><br>
 7. <a href="answers/advanced.md#unknown">Когда нужно использовать ключевое слово unknown?</a><br>
 8. <a href="answers/advanced.md#decorators">Что такое декораторы и к чему их можно применить?</a>
