@@ -38,7 +38,8 @@
 5. <a href="answers/advanced.md#overload">Что такое перегрузка функции в TypeScript?</a><br>
 6. <a href="answers/advanced.md#optional">Как сделать все свойства интерфейса необязательными?</a><br>
 7. <a href="answers/advanced.md#unknown">Когда нужно использовать ключевое слово unknown?</a><br>
-8. <a href="answers/advanced.md#decorators">Что такое декораторы и к чему их можно применить?</a>
+8. <a href="answers/advanced.md#decorators">Что такое декораторы и к чему их можно применить?</a><br>
+9. <a href="answers/advanced.md#awaited">Что такое тип awaited?</a>
 
 ## Eщё вопросы по TypeScript
 
