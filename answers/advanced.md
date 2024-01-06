@@ -102,3 +102,21 @@ function sealed(target) {
 ```typescript
 type Awaited<T> = T extends PromiseLike<infer U> ? Awaited<U> : T;
 ```
+
+## <a name="never-void"></a> В чем разница между типами never и void?
+
+Тип `void` представляет отсутствие какого-либо типа. Это означает, что функция не возвращает значение или переменная не имеет типа значения.
+
+```typescript
+function doSomething(): void {
+	// ...
+}
+```
+
+Тип `never` представляет недостижимый код. Это означает, что функция никогда не возвращает значение или переменная не может иметь значение.
+
+```typescript
+function doSomething(): never {
+	throw "never";
+}
+```
