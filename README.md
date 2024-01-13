@@ -9,6 +9,7 @@
 5. <a href="answers/general.md#modules">Что такое модуль в TypeScript?</a><br>
 6. <a href="answers/general.md#for-backend">Как использовать TypeScript в backend?</a><br>
 7. <a href="answers/general.md#type-assertions">Что такое утверждение типа (type assertion) в TypeScript?</a>
+8. <a href="answers/general.md#override">Что такое переопределение метода в TypeScript?</a><br>
 
 ## Синтаксис и основы языка
 

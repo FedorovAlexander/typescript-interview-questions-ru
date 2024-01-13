@@ -63,3 +63,24 @@ npm i -g typescript
 Утверждение типа, похоже на преобразование (приведение) типов (type conversion, typecasting), за исключением того, что от них не остается и следа в скомпилированном коде, а внутренний механизм, различен. Именно поэтому они и называются утверждения.
 
 Утверждая тип, разработчик говорит компилятору - "поверь мне, я знаю, что делаю" (Trust me, I know what I'm doing).
+
+## <a name="override"></a>Что такое переопределение метода в TypeScript?
+
+Переопределение метода - это процесс, в котором методы базового класса переопределяются в дочернем классе.
+
+```typescript
+class Person {
+	doEat() {
+		console.log("Person eats food.");
+	}
+}
+
+class Employee extends Person {
+	doEat() {
+		console.log("Employee eats food.");
+	}
+}
+
+let emp = new Employee();
+emp.doEat(); // Output: Employee eats food.
+```
