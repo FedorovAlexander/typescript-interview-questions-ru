@@ -42,6 +42,7 @@
 8. <a href="answers/advanced.md#decorators">Что такое декораторы и к чему их можно применить?</a><br>
 9. <a href="answers/advanced.md#awaited">Что такое тип awaited?</a>
 10. <a href="answers/advanced.md#never-void">В чем разница между типами never и void?</a>
+11. <a href="answers/advanced.md#implements-extends">В чем разница между implements и extends?</a>
 
 ## Eщё вопросы по TypeScript
 

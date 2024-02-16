@@ -120,3 +120,31 @@ function doSomething(): never {
 	throw "never";
 }
 ```
+
+## <a name="implements-extends"></a> В чем разница между implements и extends?
+
+`implements` - это ключевое слово, которое используется для принудительной реализации методов и свойств интерфейса в классе.
+
+```typescript
+interface IEmployee {
+	empCode: number;
+	empName: string;
+}
+
+class Employee implements IEmployee {
+	empCode: number;
+	empName: string;
+}
+```
+
+`extends` - это ключевое слово, которое используется для наследования методов и свойств базового класса в производном классе.
+
+```typescript
+class Person {
+	name: string;
+}
+
+class Employee extends Person {
+	empCode: number;
+}
+```
