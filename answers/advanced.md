@@ -148,3 +148,21 @@ class Employee extends Person {
 	empCode: number;
 }
 ```
+
+## <a name="conditional-types"></a> Что такое условные типы в TypeScript?
+
+Условные типы - это возможность в TypeScript, которая позволяет создавать типы, которые зависят от условий. Они используются для создания типов, которые могут варьироваться в зависимости от входных параметров.
+
+```typescript
+type TypeName<T> = T extends string
+	? "string"
+	: T extends number
+	? "number"
+	: T extends boolean
+	? "boolean"
+	: T extends undefined
+	? "undefined"
+	: T extends Function
+	? "function"
+	: "object";
+```

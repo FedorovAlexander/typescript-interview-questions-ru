@@ -40,9 +40,10 @@
 6. <a href="answers/advanced.md#optional">Как сделать все свойства интерфейса необязательными?</a><br>
 7. <a href="answers/advanced.md#unknown">Когда нужно использовать ключевое слово unknown?</a><br>
 8. <a href="answers/advanced.md#decorators">Что такое декораторы и к чему их можно применить?</a><br>
-9. <a href="answers/advanced.md#awaited">Что такое тип awaited?</a>
-10. <a href="answers/advanced.md#never-void">В чем разница между типами never и void?</a>
-11. <a href="answers/advanced.md#implements-extends">В чем разница между implements и extends?</a>
+9. <a href="answers/advanced.md#awaited">Что такое тип awaited?</a><br>
+10. <a href="answers/advanced.md#never-void">В чем разница между типами never и void?</a> <br>
+11. <a href="answers/advanced.md#implements-extends">В чем разница между implements и extends?</a> <br>
+12. <a href="answers/advanced.md#conditional-types">Что такое условные типы в TypeScript?</a>
 
 ## Eщё вопросы по TypeScript
 
